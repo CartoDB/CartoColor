@@ -1,1 +1,1 @@
-module.exports = require('./colorbrewer.js');
+module.exports = require('./cartocolor');
