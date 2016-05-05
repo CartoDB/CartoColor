@@ -1,6 +1,6 @@
 {
     "name": "cartocolor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A module of CartoColors for browserify",
     "keywords": [
         "colors",
