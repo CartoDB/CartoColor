@@ -1,6 +1,12 @@
 !function() {
 
-  var cartocolor = {Green1: RedOr: {
+var cartocolor = {
+  types: {
+    quantitative: [RedOr,Burg,BurgYl,PinkYl,OrYel,Peach,BluGrn,Emrld,Mint,DarkMint,TealGrn,Teal,BluYl,Purp,PurpOr,Magenta,Sunset,SunsetDark,BrwnYl],
+    qualitative: [Bold,Vivid,Pastel,Antique,Safe],
+    diverging: [TealRose,ArmyRose,Fall,Geyser,Tropic,Earth]
+  }
+  RedOr: {
   2: ["#f6d2a9","#b13f64"],
   3: ["#f6d2a9","#ea8171","#b13f64"],
   4: ["#f6d2a9","#f19c7c","#dd686c","#b13f64"],
@@ -83,7 +89,7 @@
   5: ["#d1eeea","#96d0d1","#68abb8","#45829b","#2a5674"],
   6: ["#d1eeea","#a1d7d6","#79bbc3","#599bae","#3f7994","#2a5674"],
   7: ["#d1eeea","#a8dbd9","#85c4c9","#68abb8","#4f90a6","#3b738f","#2a5674"]
-  },BluYl1: {
+  },BluYl: {
   2: ["#f7feae","#045275"],
   3: ["#f7feae","#46aea0","#045275"],
   4: ["#f7feae","#7ccba2","#089099","#045275"],
@@ -111,7 +117,7 @@
   5: ["#f3cbd3","#e498b4","#ca699d","#a24186","#6c2167"],
   6: ["#f3cbd3","#e7a2b9","#d67ba5","#bc5894","#983a81","#6c2167"],
   7: ["#f3cbd3","#eaa9bd","#dd88ac","#ca699d","#b14d8e","#91357d","#6c2167"]
-  },Sunset2: {
+  },Sunset: {
   2: ["#f3e79b","#5c53a5"],
   3: ["#f3e79b","#eb7f86","#5c53a5"],
   4: ["#f3e79b","#f8a07e","#ce6693","#5c53a5"],
