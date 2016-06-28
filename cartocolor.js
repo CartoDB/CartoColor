@@ -1,6 +1,6 @@
 !function() {
 
-  var cartocolor = {Green1: RedOr: {
+  var cartocolor = {RedOr: {
   2: ["#f6d2a9","#b13f64"],
   3: ["#f6d2a9","#ea8171","#b13f64"],
   4: ["#f6d2a9","#f19c7c","#dd686c","#b13f64"],
