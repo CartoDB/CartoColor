@@ -1,6 +1,14 @@
 !function() {
 
-var cartocolor = {RedOr: {
+var cartocolor = {
+  types: {
+    categorical: [RedOr, Burg],
+    quantitative: [Bug....],
+    diverging:
+    aggregation: [,]
+    simple: 
+  }
+  RedOr: {
   2: ["#f6d2a9","#b13f64"],
   3: ["#f6d2a9","#ea8171","#b13f64"],
   4: ["#f6d2a9","#f19c7c","#dd686c","#b13f64"],
