@@ -4,7 +4,9 @@ var cartocolor = {
   types: {
     quantitative: [RedOr,Burg,BurgYl,PinkYl,OrYel,Peach,BluGrn,Emrld,Mint,DarkMint,TealGrn,Teal,BluYl,Purp,PurpOr,Magenta,Sunset,SunsetDark,BrwnYl],
     qualitative: [Bold,Vivid,Pastel,Antique,Safe],
-    diverging: [TealRose,ArmyRose,Fall,Geyser,Tropic,Earth]
+    diverging: [TealRose,ArmyRose,Fall,Geyser,Tropic,Earth],
+    aggregation: [],
+    analysis: []
   }
   RedOr: {
   2: ["#f6d2a9","#b13f64"],
