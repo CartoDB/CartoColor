@@ -3,9 +3,9 @@
 var cartocolor = {
   types: {
     quantitative: [RedOr,Burg,BurgYl,PinkYl,OrYel,Peach,BluGrn,Emrld,Mint,DarkMint,TealGrn,Teal,BluYl,Purp,PurpOr,Magenta,Sunset,SunsetDark,BrwnYl],
-    qualitative: [Bold,Vivid,Pastel,Antique,Safe],
+    qualitative: [Prism,Bold,Vivid,Pastel,Antique,Safe],
     diverging: [TealRose,ArmyRose,Fall,Geyser,Tropic,Earth],
-    aggregation: [],
+    aggregation: [ag_Sunset,ag_GrnYl],
     analysis: []
   }
   RedOr: {
@@ -98,6 +98,13 @@ var cartocolor = {
   5: ["#f7feae","#9bd8a4","#46aea0","#058092","#045275"],
   6: ["#f7feae","#ace1a4","#68bfa1","#2a9c9c","#02778e","#045275"],
   7: ["#f7feae","#b7e6a5","#7ccba2","#46aea0","#089099","#00718b","#045275"]
+  },ag_GrnYl: {
+  2:["#EDEF5D","#245668"],
+  3:["#EDEF5D","#39AB7E","#245668"],
+  4:["#EDEF5D","#6EC574","#0D8F81","#245668"],
+  5:["#EDEF5D","#8BD16D","#39AB7E","#39AB7E","#245668"],
+  6:["#EDEF5D","#9DD869","#58BB79","#1D9A81","#09787C","#245668"],
+  7:["#EDEF5D","#A9DC67","#6EC574","#39AB7E","#0D8F81","#0F7279","#245668"]
   },Purp: {
   2: ["#f3e0f7","#63589f"],
   3: ["#f3e0f7","#b998dd","#63589f"],
@@ -133,6 +140,13 @@ var cartocolor = {
   5: ["#fcde9c","#f58670","#e34f6f","#d72d7c","#7c1d6f"],
   6: ["#fcde9c","#f89872","#ec666d","#df4273","#c5287b","#7c1d6f"],
   7: ["#fcde9c","#faa476","#f0746e","#e34f6f","#dc3977","#b9257a","#7c1d6f"]
+  },ag_Sunset: {}
+  2: ["#edd9a3","#4b2991"],
+  3: ["#edd9a3","#ea4f88","#4b2991"],
+  4: ["#edd9a3","#fa7876","#c0369d","#4b2991"],
+  5: ["#edd9a3","#fa9074","#ea4f88","#a52fa2","#4b2991"],
+  6: ["#edd9a3","#f89f77","#f7667c","#d43f96","#932da3","#4b2991"],
+  7: ["#edd9a3","#f6a97a","#fa7876","#ea4f88","#c0369d","#872ca2","#4b2991"]
   },BrwnYl: {
   2: ["#ede5cf","#541f3f"],
   3: ["#ede5cf","#c1766f","#541f3f"],
@@ -182,6 +196,17 @@ var cartocolor = {
   5: ["#2887a1","#98b7b2","#edeac2","#caa873","#A16928"],
   6: ["#2887a1","#85adaf","#cbd5bc","#e0cfa2","#c29b64","#A16928"],
   7: ["#2887a1","#79a7ac","#b5c8b8","#edeac2","#d6bd8d","#bd925a","#A16928"]
+},Prism:{
+  2: ["#EDAD08","#8E1966"],
+  3: ["#EDAD08","#8E1966","#1D6996"],
+  4: ["#EDAD08","#8E1966","#1D6996","#5B3F95"],
+  5: ["#EDAD08","#8E1966","#1D6996","#5B3F95","#129C63"],
+  6: ["#EDAD08","#8E1966","#1D6996","#5B3F95","#129C63","#E17C05"],
+  7: ["#EDAD08","#8E1966","#1D6996","#5B3F95","#129C63","#E17C05","#BA0040"],
+  8: ["#EDAD08","#8E1966","#1D6996","#5B3F95","#129C63","#E17C05","#BA0040","#6F3072"],
+  9: ["#EDAD08","#8E1966","#1D6996","#5B3F95","#129C63","#E17C05","#BA0040","#6F3072","#73AF48"],
+  10: ["#EDAD08","#8E1966","#1D6996","#5B3F95","#129C63","#E17C05","#BA0040","#6F3072","#73AF48","#DC1721"],
+  11: ["#EDAD08","#8E1966","#1D6996","#5B3F95","#129C63","#E17C05","#BA0040","#6F3072","#73AF48","#DC1721","#555555"]
   },Bold: {
   2: ["#7F3C8D","#11A579"],
   3: ["#7F3C8D","#11A579","#3969AC"],
