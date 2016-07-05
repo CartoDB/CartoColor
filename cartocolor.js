@@ -343,15 +343,16 @@ var colorbrewer = require('colorbrewer');
 // augment colorbrewer with tags
 for (var r in colorbrewer) {
   var ramps = colorbrewer[r];
+  var reversedRamps = {};
   for (var i in ramps) {
-    ramps[i].reverse();
+    reversedRamps[i] = [].concat(ramps[i]).reverse();
   }
 
   if (r in colorbrewer_tags) {
-    ramps.tags = colorbrewer_tags[r].tags;
+    reversedRamps.tags = colorbrewer_tags[r].tags;
   }
 
-  cartocolor['cb_' + r] = ramps;
+  cartocolor['cb_' + r] = reversedRamps;
 }
 
 if (typeof define === "function" && define.amd) {

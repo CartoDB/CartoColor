@@ -3,6 +3,8 @@
 ## Version 2.0.1
 Released 2016-mm-dd
 
+ - Avoid in-place modification of colorbrewer ramps.
+
 
 ## Version 2.0.0
 Released 2016-07-05
