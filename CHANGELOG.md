@@ -1,7 +1,7 @@
 # Changelog
 
 ## Version 2.0.0
-Released 2016-mm-dd
+Released 2016-07-05
 
  - New ramps.
  - Includes metadata, tagging with: qualitative, diverging, aggregation, qualitative, and colorblind.
