@@ -1,33 +1,33 @@
 {
-    "name": "cartocolor",
-    "version": "1.1.0",
-    "description": "A module of CartoColors for browserify",
-    "keywords": [
-        "colors",
-        "design",
-        "visualization",
-        "cartography",
-        "svg",
-        "d3",
-        "browserify"
-    ],
-    "homepage": "http://cartodb.com/",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/cartodb/cartocolor"
-    },
-    "bugs": {
-        "url" : "https://github.com/cartodb/cartocolor/issues",
-        "email" : "makella@cartodb.com"
-    },
-    "style": "cartocolor.css",
-    "dependencies": {
-        "colorbrewer": "1.0.0"
-    },
-    "files": [
-        "cartocolor.css",
-        "cartocolor.js",
-        "index.js"
-    ],
-    "main": "index.js"
+  "name": "cartocolor",
+  "version": "1.1.0",
+  "description": "A module of CartoColors for browserify",
+  "keywords": [
+    "colors",
+    "design",
+    "visualization",
+    "cartography",
+    "svg",
+    "d3",
+    "browserify"
+  ],
+  "homepage": "http://cartodb.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cartodb/cartocolor"
+  },
+  "bugs": {
+    "url": "https://github.com/cartodb/cartocolor/issues",
+    "email": "makella@cartodb.com"
+  },
+  "style": "cartocolor.css",
+  "dependencies": {
+    "colorbrewer": "1.0.0"
+  },
+  "files": [
+    "cartocolor.css",
+    "cartocolor.js",
+    "index.js"
+  ],
+  "main": "index.js"
 }
