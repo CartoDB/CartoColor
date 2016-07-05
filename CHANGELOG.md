@@ -1,7 +1,9 @@
 # Changelog
 
 ## Version 2.0.2
-Released 2016-mm-dd
+Released 2016-07-05
+
+ - Bumps version for npm registry.
 
 
 ## Version 2.0.1
