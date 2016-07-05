@@ -323,13 +323,34 @@ var cartocolor = {
 };
 
 
+var colorbrewer_tags = {
+  "Blues": { "tags": ["quantitative"] },
+  "BrBG": { "tags": ["diverging"] },
+  "Greys": { "tags": ["quantitative"] },
+  "PiYG": { "tags": ["diverging"] },
+  "PRGn": { "tags": ["diverging"] },
+  "Purples": { "tags": ["quantitative"] },
+  "RdYlGn": { "tags": ["diverging"] },
+  "Spectral": { "tags": ["diverging"] },
+  "YlOrBr": { "tags": ["quantitative"] },
+  "YlGn": { "tags": ["quantitative"] },
+  "YlGnBu": { "tags": ["quantitative"] },
+  "YlOrRd": { "tags": ["quantitative"] }
+}
+
 var colorbrewer = require('colorbrewer');
 
+// augment colorbrewer with tags
 for (var r in colorbrewer) {
   var ramps = colorbrewer[r];
   for (var i in ramps) {
     ramps[i].reverse();
   }
+
+  if (r in colorbrewer_tags) {
+    ramps.tags = colorbrewer_tags[r].tags;
+  }
+
   cartocolor['cb_' + r] = ramps;
 }
 
