@@ -21,6 +21,9 @@
         "email" : "makella@cartodb.com"
     },
     "style": "cartocolor.css",
+    "dependencies": {
+        "colorbrewer": "1.0.0"
+    },
     "files": [
         "cartocolor.css",
         "cartocolor.js",
