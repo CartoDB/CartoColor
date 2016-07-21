@@ -2,6 +2,8 @@
 
 ## Version 2.0.3
 Released 2016-mm-dd
+ 
+ - Reversing quantitative ramps.
 
 
 ## Version 2.0.2
