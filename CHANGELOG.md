@@ -1,7 +1,7 @@
 # Changelog
 
 ## Version 3.0.0
-Released 2016-mm-dd
+Released 2016-07-21
  
  - Reversing quantitative ramps.
 
