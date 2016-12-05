@@ -1780,7 +1780,7 @@ var cartocolor = {
             "#2F8AC4",
             "#764E9F",
             "#ED645A",
-            "#CC2D7F",
+            "#CC3A8E",
             "#A5AA99"
         ],
         "tags": [
