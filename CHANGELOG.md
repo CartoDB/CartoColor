@@ -1,8 +1,14 @@
 # Changelog
 
-## Version 3.0.1
-Released 2016-mm-dd
+## Version 4.0.0
+Released 2016-12-12
 
+ - Changed Prism scheme colors.
+ - Changed Antique scheme colors.
+ - Changed Pastel scheme colors.
+ - Changed Bold scheme colors.
+ - Changed Vivid scheme colors.
+ - Added new Temps scheme colors.
 
 ## Version 3.0.0
 Released 2016-07-21
