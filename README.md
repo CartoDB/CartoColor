@@ -6,6 +6,10 @@ CARTOColors are a set of custom color palettes built on top of well-known standa
 + [CARTOColors landing page](https://carto.com/carto-colors)
 + [CARTOColor Scheme Names](https://github.com/CartoDB/CartoColor/wiki/CARTOColor-Scheme-Names)
 
+## Availability in other packages
++ Python: [Palletable](https://jiffyclub.github.io/palettable/)
++ R: [rcartocolor](https://github.com/Nowosad/rcartocolor)
+
 ## Licensing
 CARTOColors are made available under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/us/) license.
 
