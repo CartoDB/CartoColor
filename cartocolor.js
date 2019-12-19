@@ -662,6 +662,10 @@ var cartocolor = {
         ]
     },
     "PurpOr": {
+        "2": [
+            "#f9ddda",
+            "#573b88"
+        ],
         "3": [
             "#f9ddda",
             "#ce78b3",
