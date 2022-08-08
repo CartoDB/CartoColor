@@ -12,6 +12,7 @@
     "browserify"
   ],
   "homepage": "http://cartodb.com/",
+  "license": "CC-BY-3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/cartodb/cartocolor"
