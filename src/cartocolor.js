@@ -1,6 +1,6 @@
-!function() {
+import colorbrewer from 'colorbrewer';
 
-var cartocolor = {
+const cartocolor = {
     "Burg": {
         "2": [
             "#ffc6c4",
@@ -1837,7 +1837,7 @@ var cartocolor = {
     }
 };
 
-var colorbrewer_tags = {
+const colorbrewer_tags = {
   "Blues": { "tags": ["quantitative"] },
   "BrBG": { "tags": ["diverging"] },
   "Greys": { "tags": ["quantitative"] },
@@ -1852,13 +1852,11 @@ var colorbrewer_tags = {
   "YlOrRd": { "tags": ["quantitative"] }
 }
 
-var colorbrewer = require('colorbrewer');
-
 // augment colorbrewer with tags
-for (var r in colorbrewer) {
-  var ramps = colorbrewer[r];
-  var augmentedRamps = {};
-  for (var i in ramps) {
+for (const r in colorbrewer) {
+  const ramps = colorbrewer[r];
+  const augmentedRamps = {};
+  for (const i in ramps) {
     augmentedRamps[i] = ramps[i];
   }
 
@@ -1869,12 +1867,4 @@ for (var r in colorbrewer) {
   cartocolor['cb_' + r] = augmentedRamps;
 }
 
-if (typeof define === "function" && define.amd) {
-    define(cartocolor);
-} else if (typeof module === "object" && module.exports) {
-    module.exports = cartocolor;
-} else {
-    this.colorbrewer = cartocolor;
-}
-
-}();
+export { cartocolor };
