@@ -12,14 +12,10 @@
     "d3",
     "browserify"
   ],
-  "homepage": "http://cartodb.com/",
+  "homepage": "https://carto.com/",
   "repository": {
     "type": "git",
     "url": "https://github.com/cartodb/cartocolor"
-  },
-  "bugs": {
-    "url": "https://github.com/cartodb/cartocolor/issues",
-    "email": "makella@cartodb.com"
   },
   "style": "cartocolor.css",
   "dependencies": {
@@ -30,5 +26,9 @@
     "cartocolor.js",
     "index.js"
   ],
-  "main": "index.js"
+  "main": "index.js",
+  "scripts": {
+    "version": "git add -u",
+    "postversion": "git push && git push --tags && npm publish"
+  }
 }

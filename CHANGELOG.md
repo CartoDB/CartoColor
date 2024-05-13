@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 5.0.0
+Released 2024-05-13
+
+- Update license to [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+
+
 ## Version 4.0.1
 Released 201Y-MM-DD
 
@@ -15,7 +21,7 @@ Released 2016-12-12
 
 ## Version 3.0.0
 Released 2016-07-21
- 
+
  - Reversing quantitative ramps.
 
 
