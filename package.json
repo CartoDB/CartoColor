@@ -2,6 +2,7 @@
   "name": "cartocolor",
   "version": "4.0.1",
   "description": "A module of CartoColors for browserify",
+  "license": "CC-BY-4.0",
   "keywords": [
     "colors",
     "design",
