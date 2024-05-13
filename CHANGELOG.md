@@ -4,6 +4,7 @@
 Released 2024-05-13
 
 - Update license to [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+- Add ESM and CJS builds
 
 
 ## Version 4.0.1
