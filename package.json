@@ -28,7 +28,7 @@
     "url": "https://github.com/cartodb/cartocolor"
   },
   "dependencies": {
-    "colorbrewer": "1.0.0"
+    "colorbrewer": "1.5.6"
   },
   "devDependencies": {
     "esbuild": "^0.21.2"
