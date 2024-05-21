@@ -16,7 +16,7 @@ export const Burg = {
   tags: ["quantitative"],
 };
 
-export const BurgY1 = {
+export const BurgYl = {
   2: ["#fbe6c5", "#70284a"],
   3: ["#fbe6c5", "#dc7176", "#70284a"],
   4: ["#fbe6c5", "#ee8a82", "#c8586c", "#70284a"],
@@ -88,7 +88,7 @@ export const Peach = {
   tags: ["quantitative"],
 };
 
-export const PinkY1 = {
+export const PinkYl = {
   2: ["#fef6b5", "#e15383"],
   3: ["#fef6b5", "#ffa679", "#e15383"],
   4: ["#fef6b5", "#ffc285", "#fa8a76", "#e15383"],
@@ -178,7 +178,7 @@ export const Emrld = {
   tags: ["quantitative"],
 };
 
-export const ag_GrnY1 = {
+export const ag_GrnYl = {
   2: ["#245668", "#EDEF5D"],
   3: ["#245668", "#39AB7E", "#EDEF5D"],
   4: ["#245668", "#0D8F81", "#6EC574", "#EDEF5D"],
@@ -196,7 +196,7 @@ export const ag_GrnY1 = {
   tags: ["aggregation"],
 };
 
-export const BluY1 = {
+export const BluYl = {
   2: ["#f7feae", "#045275"],
   3: ["#f7feae", "#46aea0", "#045275"],
   4: ["#f7feae", "#7ccba2", "#089099", "#045275"],
@@ -358,7 +358,7 @@ export const ag_Sunset = {
   tags: ["aggregation"],
 };
 
-export const BrwnY1 = {
+export const BrwnYl = {
   2: ["#ede5cf", "#541f3f"],
   3: ["#ede5cf", "#c1766f", "#541f3f"],
   4: ["#ede5cf", "#d39c83", "#a65461", "#541f3f"],
