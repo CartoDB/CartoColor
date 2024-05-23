@@ -1,6 +1,6 @@
 {
   "name": "cartocolor",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "CartoColors: custom color palettes from CARTO",
   "license": "CC-BY-4.0",
   "type": "module",
