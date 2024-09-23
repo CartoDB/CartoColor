@@ -1,5 +1,5 @@
 import { deepEqual } from "node:assert/strict";
-import * as cartocolor from "../dist/cartocolor.js";
+import * as cartocolor from "../dist/index.js";
 import colorbrewer from "colorbrewer";
 
 const { Teal, Safe, cb_Greys } = cartocolor;
