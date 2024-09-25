@@ -8,11 +8,14 @@
     // https://esbuild.github.io/content-types/#typescript
     "esModuleInterop": true,
     "isolatedModules": true,
-    "strict": true,
 
     // affects `tsc` only
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "dist"
+    "outDir": "dist",
+
+    // strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true
   }
 }
