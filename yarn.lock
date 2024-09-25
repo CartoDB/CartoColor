@@ -117,6 +117,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.21.2.tgz#825b4e7c89b7e7ec64c450ed494a8af7e405a84d"
   integrity sha512-VEfTCZicoZnZ6sGkjFPGRFFJuL2fZn2bLhsekZl1CJslflp2cJS/VoKs1jMk+3pDfsGW6CfQVUckP707HwbXeQ==
 
+"@types/colorbrewer@^1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@types/colorbrewer/-/colorbrewer-1.0.32.tgz#6078df47df15a6d0420deea490424391348d0bb7"
+  integrity sha512-mIqwKFoEVzJHfqIfKnQCyw5HoF6+85Qd7CHT9TRtt9WnBwyAdRZmUPZoFJ7wajIWoPaKFY6BPeVp/38PpTBp5A==
+
 colorbrewer@1.5.6:
   version "1.5.6"
   resolved "https://registry.yarnpkg.com/colorbrewer/-/colorbrewer-1.5.6.tgz#5b6c81bcf2ee584642375143b210a9049d9e5ab5"
@@ -150,3 +155,8 @@ esbuild@^0.21.2:
     "@esbuild/win32-arm64" "0.21.2"
     "@esbuild/win32-ia32" "0.21.2"
     "@esbuild/win32-x64" "0.21.2"
+
+typescript@^5.6.2:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.2.tgz#d1de67b6bef77c41823f822df8f0b3bcff60a5a0"
+  integrity sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==
